@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Jonathan Arnett's Portfolio Site</title>
+	<link rel="shortcut icon" href="jern-con.ico" />
+	<link rel="stylesheet" href="reset.css" type="text/css" />
+	<link rel="stylesheet" href="css.css" type="text/css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script src="functions.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			resizeElements();
+			
+			$(window).resize(function() {
+                        	resizeElements();
+                	});
+			
+			$(".nav-button").click(function() {
+        	                scrollToElement($(".nav-button").index(this));
+	                });
+		});
+	</script>
+</head>
+<body>
+	<div class="welcome page">
+		<h1 class="main-title">Welcome</h1>
+		<div class="footer">
+			<ul class="nav-bar">
+				<li class="first-wrapper nav-button-wrapper"><div class="nav-button green-accent">Home</div></li>
+				<li class="nav-button-wrapper"><div class="nav-button red-accent">UX</div></li>
+				<li class="nav-button-wrapper"><div class="nav-button yellow-accent">Back-End</div></li>
+				<li class="nav-button-wrapper"><div class="nav-button blue-accent">Credits</div></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ux page">
+	</div>
+	<div class="server-side page">
+	</div>
+	<div class="credits page">
+	</div>
+</body>
+</html>
