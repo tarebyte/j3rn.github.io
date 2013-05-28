@@ -3,13 +3,15 @@ html, body {
 	padding: 0;
 	overflow: hidden;
 	font-family: sans-serif;
+	background: #FDFDFD;
 }
 
 .main-title {
-	padding-top: 10%;
+	padding-top: 5%;
 	width: 100%;
 	text-align: center;
 	font-size: 80px;
+	font-weight: lighter;
 }
 
 .title {
@@ -20,50 +22,5 @@ html, body {
 .sub-title {
 	text-align: center;
 	font-size: large;
-}
-
-.footer {
-	width: 100%;
-	position: fixed;
-	bottom: 0;
-	border-top: solid black thin;
-}
-
-.nav-bar {
-	display: flex;
-	display: -webkit-flex;
-	justify-content: center;
-	-webkit-justify-content: center;
-}
-
-.first-wrapper{
-	border-left: solid black thin;
-}
-
-.nav-button-wrapper {
-	border-right: solid black thin;
-}
-
-.nav-button {
-	padding: 10px;
-	font-weight: bold;
-	font-size: large;
-	cursor: pointer;
-}
-
-.blue-accent {
-	border-bottom: solid blue 5px;
-}
-
-.red-accent {
-	border-bottom: solid red 5px;
-}
-
-.green-accent {
-	border-bottom: solid green 5px;
-}
-
-.yellow-accent {
-	border-bottom: solid yellow 5px;
 }
 
