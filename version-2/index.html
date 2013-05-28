@@ -13,12 +13,12 @@
 			resizeElements();
 			
 			$(window).resize(function() {
-                        	resizeElements();
-                	});
+             	resizeElements();
+        	});
 			
 			$(".nav-button").click(function() {
-        	                scrollToElement($(".nav-button").index(this));
-	                });
+                scrollToElement($(".nav-button").index(this));
+            });
 		});
 	</script>
 </head>
@@ -27,18 +27,25 @@
 		<h1 class="main-title">Welcome</h1>
 		<div class="footer">
 			<ul class="nav-bar">
-				<li class="first-wrapper nav-button-wrapper"><div class="nav-button green-accent">Home</div></li>
-				<li class="nav-button-wrapper"><div class="nav-button red-accent">UX</div></li>
-				<li class="nav-button-wrapper"><div class="nav-button yellow-accent">Back-End</div></li>
-				<li class="nav-button-wrapper"><div class="nav-button blue-accent">Credits</div></li>
+				<li class="first-wrapper nav-button-wrapper">
+					<div class="nav-button green-accent">Home</div></li>
+				<li class="nav-button-wrapper">
+					<div class="nav-button red-accent">UX</div></li>
+				<li class="nav-button-wrapper">
+					<div class="nav-button yellow-accent">Back-End</div></li>
+				<li class="nav-button-wrapper">
+					<div class="nav-button blue-accent">Credits</div></li>
 			</ul>
 		</div>
 	</div>
 	<div class="ux page">
+		<h2 class="title">UX</h2>
 	</div>
 	<div class="server-side page">
+		<h2 class="title">Back-End</h2>
 	</div>
 	<div class="credits page">
+		<h2 class="title">Credits</h2>
 	</div>
 </body>
 </html>

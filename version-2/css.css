@@ -12,6 +12,16 @@ html, body {
 	font-size: 80px;
 }
 
+.title {
+	text-align: center;
+	font-size: 70px;
+}
+
+.sub-title {
+	text-align: center;
+	font-size: large;
+}
+
 .footer {
 	width: 100%;
 	position: fixed;
