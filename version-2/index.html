@@ -3,7 +3,6 @@
 <head>
 	<title>Jonathan Arnett's Portfolio Site</title>
 	<link rel="shortcut icon" href="jern-con.ico" />
-	<!-- link rel="stylesheet" href="reset.css" type="text/css" /-->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="css.css" type="text/css" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
@@ -19,14 +18,21 @@
         	});
 			
 			$(".nav-btn").click(function() {
-                scrollToElement($(".nav-btn").index(this));
+				var index = $(".nav-btn").index(this);
+                scrollToElement(index);
+				
+				$(".nav-btn").forEach(function(element) {
+					element.removeClass("active");
+				});
+
+				$(this).addClass("active");
             });
 		});
 	</script>
 </head>
 <body>
 	<div class="welcome page">
-		<div class="navbar">
+		<div class="fixed full-width top navbar">
 			<div class="navbar-inner">
 				<a class="brand" href="#">Welcome</a>
 				<ul class="nav">
@@ -37,16 +43,16 @@
 				</ul>
 			</div>
 		</div>
-		<h1 class="main-title">Welcome</h1>
+		<h1 class="main-title light centered">Welcome</h1>
 	</div>
 	<div id="ux" class="page">
-		<h2 class="title">UX</h2>
+		<h2 class="title light centered">UX</h2>
 	</div>
 	<div id="back-end" class="page">
-		<h2 class="title">Back-End</h2>
+		<h2 class="title light centered">Back-End</h2>
 	</div>
 	<div id="credits" class="page">
-		<h2 class="title">Credits</h2>
+		<h2 class="title light centered">Credits</h2>
 	</div>
 </body>
 </html>
