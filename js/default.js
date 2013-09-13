@@ -1,4 +1,3 @@
-	<script type="text/javascript">
 	   $(document).ready(function(){
 		  $("#link_list").hide();
 		   
@@ -30,4 +29,3 @@
                   }
                   }
 	   });
-	</script>
