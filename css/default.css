@@ -40,6 +40,8 @@ img {
   font-family: 'Sacramento', cursive;
 }
 
-.inline {
+.side-block {
   display: inline-block;
+  vertical-align: top;
 }
+
