@@ -3,10 +3,13 @@
 body {
   font-family: 'Oxygen', sans-serif;
   background: #DDD;
+  font-size: 1.25em;
+  line-height: 1.25em;
 }
 
 h1 {
   font-size: 3em;
+  line-height: 1em;
 }
 
 a {
@@ -15,15 +18,15 @@ a {
 }
 
 img {
-  padding: 1em;
+  padding: 0 1em;
 }
 
 .centered {
   text-align: center;
 }
 
-.red {
-  color: red;
+.border-red {
+  border-color: red;
 }
 
 .inner-body {
@@ -37,6 +40,6 @@ img {
   font-family: 'Sacramento', cursive;
 }
 
-.float-left {
-  float: left;
+.inline {
+  display: inline-block;
 }
