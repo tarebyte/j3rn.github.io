@@ -29,19 +29,16 @@ img {
   border-color: red;
 }
 
-.inner-body {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 1em;
-  background: white;
-}
-
 .title {
   font-family: 'Sacramento', cursive;
+  padding-top: .5em;
 }
 
-.side-block {
-  display: inline-block;
-  vertical-align: top;
+.profile-img {
+  width: 100%;
+  padding-bottom: 1em;
 }
 
+.row {
+  background: white;
+}
