@@ -1,3 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Sacramento|Oxygen);
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  background: #DDD;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1em;
+}
+
+a {
+  color: inherit;
+  font-weight: bold;
+}
+
+img {
+  padding: 0 1em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.border-red {
+  border-color: red;
+}
+
+.title {
+  font-family: 'Sacramento', cursive;
+  padding-top: .5em;
+}
+
+.profile-img {
+  width: 100%;
+  padding-bottom: 1em;
+}
+
 .container {
   background: white;
 }
