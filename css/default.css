@@ -40,5 +40,6 @@ img {
 }
 
 .container {
+  margin-top: 1em;
   background: white;
 }
