@@ -8,17 +8,26 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   line-height: 1em;
 }
 
 a {
-  color: inherit;
   font-weight: bold;
 }
 
 img {
   padding: 0 1em;
+}
+
+.inline-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.inline-list li {
+  display: inline;
 }
 
 .centered {
