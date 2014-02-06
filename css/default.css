@@ -42,6 +42,10 @@ hr {
   text-align: center;
 }
 
+.justified {
+  text-align: justify;
+}
+
 .border-red {
   border-color: red;
 }
