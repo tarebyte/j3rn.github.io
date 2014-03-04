@@ -5,6 +5,7 @@ body {
   background: #DDD;
   font-size: 2em;
   line-height: 2em;
+  padding-top: 1em;
 }
 
 h1 {
@@ -20,9 +21,11 @@ a {
   font-weight: bold;
 }
 
-img {
-  padding: 0 1em;
-}
+/*img {*/
+  /*padding: 0 1em;*/
+  /*width: 100%;*/
+  /*padding-bottom: 1em;*/
+/*}*/
 
 hr {
   width: 30%;
@@ -50,7 +53,7 @@ hr {
   border-color: red;
 }
 
-.row {
+.container {
   background: white;
   margin-bottom: 15px;
   padding: 15px 0;
@@ -60,15 +63,6 @@ hr {
   font-family: 'Sacramento', cursive;
 }
 
-.profile-img {
-  width: 100%;
-  padding-bottom: 1em;
-}
-
-.container {
-  margin-top: 1em;
-}
-
 .nav {
   font-size: 1em;
 }
@@ -76,5 +70,9 @@ hr {
 .nav li {
   margin-left: 10px;
   /* line-height: 3em; */
+}
+
+.nav li a {
+  display: inline;
 }
 
