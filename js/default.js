@@ -1,2 +1,3 @@
-$(document).ready(function(){
+$(function () {
+  // Nothing here yet!
 });

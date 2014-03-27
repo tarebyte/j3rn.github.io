@@ -3,42 +3,76 @@
 body {
   font-family: 'Oxygen', sans-serif;
   background: #DDD;
-  font-size: 1.25em;
-  line-height: 1.25em;
+  font-size: 2em;
+  line-height: 2em;
+  padding-top: 1em;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   line-height: 1em;
 }
 
+h2 {
+  font-size: 3em;
+}
+
 a {
-  color: inherit;
   font-weight: bold;
 }
 
 img {
-  padding: 0 1em;
+  text-align: center;
+  margin: 0 auto;
+  width: 75%;
+}
+
+hr {
+  width: 30%;
+}
+
+.inline-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.inline-list li {
+  display: inline;
 }
 
 .centered {
   text-align: center;
 }
 
+.justified {
+  text-align: justify;
+}
+
 .border-red {
   border-color: red;
 }
 
+.container {
+  background: white;
+  margin-bottom: 15px;
+  padding: 30px 60px;
+}
+
 .title {
   font-family: 'Sacramento', cursive;
-  padding-top: .5em;
 }
 
-.profile-img {
-  width: 100%;
-  padding-bottom: 1em;
+.nav {
+  font-size: 1em;
 }
 
-.row {
-  background: white;
+.nav li {
+  margin-left: 10px;
+  /* line-height: 3em; */
 }
+
+.nav li a {
+  display: inline;
+}
+
