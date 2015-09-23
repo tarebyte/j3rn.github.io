@@ -24,7 +24,9 @@ a {
 img {
   text-align: center;
   margin: 0 auto;
-  width: 75%;
+  padding: 5%;
+  width: 90%;
+  /* width: 75%; */
 }
 
 hr {
@@ -81,6 +83,10 @@ hr {
 
 .nav li a:hover {
   background-color: inherit;
+}
+
+.experience-container .row img {
+
 }
 
 /* Supposedly mobile */
