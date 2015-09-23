@@ -85,10 +85,6 @@ hr {
   background-color: inherit;
 }
 
-.experience-container .row img {
-
-}
-
 /* Supposedly mobile */
 @media only screen and (max-device-width: 480px) {
   .title {
