@@ -26,7 +26,6 @@ img.img-responsive {
   margin: 0 auto;
   padding: 5%;
   width: 90%;
-  /* width: 75%; */
 }
 
 hr {
@@ -86,7 +85,7 @@ hr {
 }
 
 /* Supposedly mobile */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 991px) {
   .title {
     font-size: 6em;
     line-height: 1.5em;
@@ -106,5 +105,9 @@ hr {
 
   .nav {
     font-size: 1.5em;
+  }
+
+  img.img-responsive {
+    width: 50%;
   }
 }
