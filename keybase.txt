@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/j3rn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://j3rn.com
+  * I am j3rn (https://keybase.io/j3rn) on keybase.
+  * I have a public key ASBhifQXfnaOXVcs8wkePXEhYqHf5sX7-XkL_U5IX_CALwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01206189f4177e768e5d572cf3091e3d712162a1dfe6c5fbf9790bfd4e485ff0802f0a",
+            "host": "keybase.io",
+            "kid": "01206189f4177e768e5d572cf3091e3d712162a1dfe6c5fbf9790bfd4e485ff0802f0a",
+            "uid": "caf41df838951a0f31757d0bd7b08200",
+            "username": "j3rn"
+        },
+        "service": {
+            "hostname": "j3rn.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.13"
+    },
+    "ctime": 1458351819,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1458351768,
+        "hash": "ed3a6154e0fb44a3dded91c88a661094dd06dae1a67077c8e3583d2f9f33b6ce609cce269c108854ba4dfcd430d723ba4ea7768615bfc3b86999c86d91af672f",
+        "seqno": 413726
+    },
+    "prev": "3895279e22f3286001a536cf1c522589843d3c9c66c976477f099f6574874893",
+    "seqno": 18,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYYn0F352jl1XLPMJHj1xIWKh3+bF+/l5C/1OSF/wgC8Kp3BheWxvYWTFAux7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjE4OWY0MTc3ZTc2OGU1ZDU3MmNmMzA5MWUzZDcxMjE2MmExZGZlNmM1ZmJmOTc5MGJmZDRlNDg1ZmYwODAyZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjE4OWY0MTc3ZTc2OGU1ZDU3MmNmMzA5MWUzZDcxMjE2MmExZGZlNmM1ZmJmOTc5MGJmZDRlNDg1ZmYwODAyZjBhIiwidWlkIjoiY2FmNDFkZjgzODk1MWEwZjMxNzU3ZDBiZDdiMDgyMDAiLCJ1c2VybmFtZSI6Imozcm4ifSwic2VydmljZSI6eyJob3N0bmFtZSI6Imozcm4uY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xMyJ9LCJjdGltZSI6MTQ1ODM1MTgxOSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDU4MzUxNzY4LCJoYXNoIjoiZWQzYTYxNTRlMGZiNDRhM2RkZWQ5MWM4OGE2NjEwOTRkZDA2ZGFlMWE2NzA3N2M4ZTM1ODNkMmY5ZjMzYjZjZTYwOWNjZTI2OWMxMDg4NTRiYTRkZmNkNDMwZDcyM2JhNGVhNzc2ODYxNWJmYzNiODY5OTljODZkOTFhZjY3MmYiLCJzZXFubyI6NDEzNzI2fSwicHJldiI6IjM4OTUyNzllMjJmMzI4NjAwMWE1MzZjZjFjNTIyNTg5ODQzZDNjOWM2NmM5NzY0NzdmMDk5ZjY1NzQ4NzQ4OTMiLCJzZXFubyI6MTgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA+YYCVj+Ra5X9GkBgHfhn8wzsweEa9Zc6MEf8sgt312nX4dndl2KSFEm9ARRTrJ/f71ux7XZ5jyComhPQRq9qAqhzaWdfdHlwZSCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/j3rn
+
+==================================================================
