@@ -1,3 +1,6 @@
 [submodule "goe"]
 	path = goe
 	url = https://github.com/J3RN/game-of-evolution
+[submodule "goe-beta"]
+	path = goe-beta
+	url = https://github.com/J3RN/game-of-evolution
