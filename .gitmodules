@@ -4,3 +4,6 @@
 [submodule "goe-beta"]
 	path = goe-beta
 	url = https://github.com/J3RN/game-of-evolution
+[submodule "t3rm"]
+	path = t3rm
+	url = https://github.com/J3RN/t3rm
