@@ -9,4 +9,4 @@
 	url = https://github.com/J3RN/t3rm
 [submodule "genetic_cars_2"]
 	path = genetic_cars_2
-	url = git@github.com:J3RN/HTML5_Genetic_Cars
+	url = https://github.com/J3RN/HTML5_Genetic_Cars
